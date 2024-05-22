@@ -21,7 +21,7 @@ spec:
         command: 
           - /bin/sh
           - -c
-          - "echo 'welcomeeeee to my web app25' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
+          - "echo 'welcomeeeee to my web app 25' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
       dnsConfig:
             options:
               - name: ndots
